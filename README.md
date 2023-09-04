@@ -1,1 +1,1 @@
-# tem_vite-preact-chakra
+# Use Lit elements in Preact
