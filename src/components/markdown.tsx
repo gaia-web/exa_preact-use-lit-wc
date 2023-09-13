@@ -1,13 +1,12 @@
-import * as React from "preact/compat";
+import * as React from "react";
 import { createComponent } from '@lit-labs/react';
 import { AwesomeMarkdownElement } from "@awesome-elements/markdown";
 
 export const Markdown = createComponent({
   tagName: 'awesome-markdown',
   elementClass: AwesomeMarkdownElement,
-  react: React as any,
+  react: React,
   events: {
     onMarkdownParsed: 'markdownParsed'
   },
-}) as React.FunctionComponent<Partial<AwesomeMarkdownElement & { onMarkdownParsed: (event: CustomEvent) => void }>>;
-// temp fix for types, waiting for GitHub issue to be resolved
+});
