@@ -1,18 +1,6 @@
 import { Badge } from "@chakra-ui/react";
 import "@awesome-elements/markdown";
-import { AwesomeMarkdownElement } from "@awesome-elements/markdown";
 import { Markdown } from "./markdown";
-
-// for directly using web component
-declare global {
-  namespace preact {
-    namespace JSX {
-      interface IntrinsicElements {
-        'awesome-markdown': Partial<AwesomeMarkdownElement & { onmarkdownParsed: (event: CustomEvent) => void }>
-      }
-    }
-  }
-}
 
 type HelloWorldProps = {
   who?: string;
