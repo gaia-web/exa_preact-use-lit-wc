@@ -9,12 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@awesome-elements/markdown": "github:awesome-elements/markdown",
+    "@awesome-elements/markdown": "^0.2.0-rc.1",
     "@chakra-ui/icons": "^2.1.0",
     "@chakra-ui/react": "^2.8.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "@lit-labs/react": "^2.0.2",
+    "@lit/react": "^1.0.0",
     "framer-motion": "^10.16.2",
     "preact": "^10.16.0",
     "preact-router": "^4.1.2"

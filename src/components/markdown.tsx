@@ -1,5 +1,5 @@
 import * as React from "react";
-import { createComponent } from '@lit-labs/react';
+import { createComponent } from '@lit/react';
 import { AwesomeMarkdownElement } from "@awesome-elements/markdown";
 
 export const Markdown = createComponent({
